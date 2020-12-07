@@ -1,3 +1,4 @@
+# GoPlayRepo
 Repo Location 
 https://github.com/MrCheeksJo/GoPlayRepo
 
@@ -7,7 +8,10 @@ https://github.com/MrCheeksJo/GoPlayRepo
 https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US
 - Once the application is downloaded press the scan icon then scan the following beta application QR Code.
 https://expo.io/@jcheeks5281/projects/argon-free-react-native
-https://i.postimg.cc/tC6Y5fZy/QRCode.png
+
+![alt text](https://i.postimg.cc/tC6Y5fZy/QRCode.png)
+![alt text](https://i.postimg.cc/q7pqpxJ3/Go-App-Screens.png)
+
 
 #
 * [Versions](#versions) 
@@ -21,16 +25,6 @@ https://i.postimg.cc/tC6Y5fZy/QRCode.png
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
-
-
-| Home Screen | Profile Screen | Elements Screen | Register Screen |
-| --- | --- | --- | --- |
-| [![Home Screen](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-react-native/home-screen.png)](https://demos.creative-tim.com/argon-react-native/) | [![Profile Screen](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-react-native/profile-screen.png)](https://demos.creative-tim.com/argon-react-native/) | [![Elements Screen](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-react-native/elements-screen.png)](https://demos.creative-tim.com/argon-react-native/) | [![Register Screen](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-react-native/register-screen.png)](https://demos.creative-tim.com/argon-react-native/) |
-
-- [Start page](https://demos.creative-tim.com/argon-react-native)
-- [How to install our free demo](https://demos.creative-tim.com/argon-react-native/docs/#/install)
-
-[View more](https://demos.creative-tim.com/argon-react-native)
 
 
 ## Documentation
