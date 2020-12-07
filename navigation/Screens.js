@@ -11,6 +11,9 @@ import { Block } from "galio-framework";
 import Home from "../screens/Home";
 import Onboarding from "../screens/Onboarding";
 import LocalCommunity from "../screens/LocalCommunity";
+//import Calendar from "../components/calendar/Calendar";
+import ScheduleEvent from "../screens/ScheduleEvent";
+import AroundCity from "../screens/AroundCity";
 import Pro from "../screens/Pro";
 import Profile from "../screens/Profile";
 import Account from "../screens/Register";
@@ -178,12 +181,131 @@ function HomeStack(props) {
   );
 }
 
+/*function CalendarStack(props) {
+    return (
+        <Stack.Navigator mode="card" headerMode="screen">
+            <Stack.Screen
+                name="Calendar"
+                component={Calendar}
+                options={{
+                    header: ({ navigation, scene }) => (
+                        <Header
+                            title="Home"
+                            search
+                            options
+                            navigation={navigation}
+                            scene={scene}
+                        />
+                    ),
+                    cardStyle: { backgroundColor: "#F8F9FE" }
+                }}
+            />
+            <Stack.Screen
+                name="Pro"
+                component={Pro}
+                options={{
+                    header: ({ navigation, scene }) => (
+                        <Header
+                            title=""
+                            back
+                            white
+                            transparent
+                            navigation={navigation}
+                            scene={scene}
+                        />
+                    ),
+                    headerTransparent: true
+                }}
+            />
+        </Stack.Navigator>
+    );
+} */
+
 function LocalCommunityStack(props) {
     return (
         <Stack.Navigator mode="card" headerMode="screen">
             <Stack.Screen
                 name="LocalCommunity"
                 component={LocalCommunity}
+                options={{
+                    header: ({ navigation, scene }) => (
+                        <Header
+                            title="Home"
+                            search
+                            options
+                            navigation={navigation}
+                            scene={scene}
+                        />
+                    ),
+                    cardStyle: { backgroundColor: "#F8F9FE" }
+                }}
+            />
+            <Stack.Screen
+                name="Pro"
+                component={Pro}
+                options={{
+                    header: ({ navigation, scene }) => (
+                        <Header
+                            title=""
+                            back
+                            white
+                            transparent
+                            navigation={navigation}
+                            scene={scene}
+                        />
+                    ),
+                    headerTransparent: true
+                }}
+            />
+        </Stack.Navigator>
+    );
+}
+
+function AroundCityStack(props) {
+    return (
+        <Stack.Navigator mode="card" headerMode="screen">
+            <Stack.Screen
+                name="AroundCity"
+                component={AroundCity}
+                options={{
+                    header: ({ navigation, scene }) => (
+                        <Header
+                            title="Home"
+                            search
+                            options
+                            navigation={navigation}
+                            scene={scene}
+                        />
+                    ),
+                    cardStyle: { backgroundColor: "#F8F9FE" }
+                }}
+            />
+            <Stack.Screen
+                name="Pro"
+                component={Pro}
+                options={{
+                    header: ({ navigation, scene }) => (
+                        <Header
+                            title=""
+                            back
+                            white
+                            transparent
+                            navigation={navigation}
+                            scene={scene}
+                        />
+                    ),
+                    headerTransparent: true
+                }}
+            />
+        </Stack.Navigator>
+    );
+}
+function ScheduleEventStack (props) {
+    return (
+        <Stack.Navigator mode="card" headerMode="screen">
+            <Stack.Screen
+                name="ScheduleEvent"
+                component={ScheduleEvent}
                 options={{
                     header: ({ navigation, scene }) => (
                         <Header
@@ -266,7 +388,9 @@ function AppStack(props) {
       <Drawer.Screen name="Home" component={HomeStack} />
       <Drawer.Screen name="Profile" component={ProfileStack} />
       <Drawer.Screen name="Account" component={Account} />
-      <Drawer.Screen name="LocalCommunity" component={LocalCommunity} />
+          <Drawer.Screen name="LocalCommunity" component={LocalCommunityStack} />
+          <Drawer.Screen name="AroundCity" component={AroundCityStack} />
+          <Drawer.Screen name="ScheduleEvent" component={ScheduleEventStack} />
       <Drawer.Screen name="Elements" component={ElementsStack} />
       <Drawer.Screen name="Articles" component={ArticlesStack} />
     </Drawer.Navigator>

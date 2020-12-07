@@ -49,12 +49,39 @@ class DrawerItem extends React.Component {
       case "Account":
         return (
           <Icon
-            name="calendar-date"
+            name="spaceship"
             family="ArgonExtra"
             size={14}
             color={focused ? "white" : argonTheme.COLORS.INFO}
           />
-        );
+            );
+        case "LocalCommunity":
+            return (
+                <Icon
+                    name="map-big"
+                    family="ArgonExtra"
+                    size={14}
+                    color={focused ? "white" : argonTheme.COLORS.INFO}
+                />
+            );
+        case "AroundCity":
+            return (
+                <Icon
+                    name="map-big"
+                    family="ArgonExtra"
+                    size={14}
+                    color={focused ? "white" : argonTheme.COLORS.INFO}
+                />
+            );
+        case "ScheduleEvent":
+            return (
+                <Icon
+                    name="calendar-date"
+                    family="ArgonExtra"
+                    size={14}
+                    color={focused ? "white" : argonTheme.COLORS.INFO}
+                />
+            );
       case "Getting Started":
         return (<Icon
           name="spaceship"

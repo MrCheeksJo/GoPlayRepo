@@ -26,7 +26,7 @@ export default class Pro extends React.Component {
               </Block>
               <Block >
                 <Block>
-                  <Text color="white" size={60}>Argon</Text>
+                  <Text color="white" size={60}>GoPlay</Text>
                 </Block>
                 <Block>
                   <Text color="white" size={60}>Design</Text>

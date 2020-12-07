@@ -24,11 +24,11 @@ const BellButton = ({isWhite, style, navigation}) => (
 );
 
 const BasketButton = ({isWhite, style, navigation}) => (
-  <TouchableOpacity style={[styles.button, style]} onPress={() => navigation.navigate('Pro')}>
+    <TouchableOpacity style={[styles.button, style]} onPress={() => navigation.navigate('ScheduleEvent')}>
     <Icon
       family="ArgonExtra"
       size={16}
-      name="basket"
+            name="calendar-date"
       color={argonTheme.COLORS[isWhite ? 'WHITE' : 'ICON']}
     />
   </TouchableOpacity>
@@ -130,7 +130,7 @@ class Header extends React.Component {
             <Text size={15} style={styles.tabTitle}>{optionLeft || 'Local Community       '}</Text>
           </Block>
         </Button>
-        <Button shadowless style={styles.tab} onPress={() => navigation.navigate('Pro')}>
+        <Button shadowless style={styles.tab} onPress={() => navigation.navigate('AroundCity')}>
           <Block row middle>
             <Icon size={15} name="bag-17" family="ArgonExtra" style={{ paddingRight: 8 }} color={argonTheme.COLORS.ICON}/>
             <Text size={15} style={styles.tabTitle}>{optionRight || 'Around the City'}</Text>

@@ -3,10 +3,10 @@ import { StyleSheet, Dimensions, ScrollView } from 'react-native';
 import { Block, theme } from 'galio-framework';
 
 import { Card } from '../components';
-import articles from '../constants/LocalUsers';
+import articles from '../constants/aroundcity';
 const { width } = Dimensions.get('screen');
 
-class LocalCommunity extends React.Component {
+class AroundCity extends React.Component {
   renderArticles = () => {
     return (
       <ScrollView
@@ -14,10 +14,6 @@ class LocalCommunity extends React.Component {
         contentContainerStyle={styles.articles}>
         <Block flex>
            <Card item={articles[0]} horizontal />
-           <Card item={articles[1]} horizontal />
-           <Card item={articles[2]} horizontal />
-          <Card item={articles[3]} horizontal />
-          <Card item={articles[4]} full />
         </Block>
       </ScrollView>
     )
@@ -37,9 +33,8 @@ const styles = StyleSheet.create({
     width: width,    
   },
   articles: {
-    width: width - theme.SIZES.BASE * 2,
-    paddingVertical: theme.SIZES.BASE,
+    width: width - theme.SIZES.BASE * 2
   },
 });
 
-export default LocalCommunity;
+export default AroundCity;
