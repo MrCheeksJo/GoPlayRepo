@@ -8,7 +8,9 @@ https://github.com/MrCheeksJo/GoPlayRepo
 https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en&gl=US
 - Once the application is downloaded press the scan icon then scan the following beta application QR Code.
 https://expo.io/@jcheeks5281/projects/argon-free-react-native
-https://i.postimg.cc/tC6Y5fZy/QRCode.png
+
+![alt text](https://i.postimg.cc/tC6Y5fZy/QRCode.png)
+
 
 #
 * [Versions](#versions) 
