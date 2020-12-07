@@ -33,7 +33,8 @@ const styles = StyleSheet.create({
     width: width,    
   },
   articles: {
-    width: width - theme.SIZES.BASE * 2
+    width: width - theme.SIZES.BASE * 2,
+    paddingVertical: theme.SIZES.BASE,
   },
 });
 

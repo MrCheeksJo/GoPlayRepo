@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "GoPlayRepo",
-    "slug": "GoPlayRepo",
+    "name": "GoPlayRepoAsu",
+    "slug": "argon-free-react-native",
     "privacy": "public",
     "sdkVersion": "39.0.0",
     "platforms": [
@@ -12,7 +12,7 @@
     "orientation": "portrait",
     "icon": "./assets/FinalLogoGP.jpg",
     "splash": {
-      "image": "./assets/splashy.png",
+      "image": "./assets/splash.png",
       "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
